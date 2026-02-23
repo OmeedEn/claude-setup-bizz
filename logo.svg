@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6c5ce7"/>
+      <stop offset="100%" style="stop-color:#a78bfa"/>
+    </linearGradient>
+  </defs>
+  <!-- Rounded square background -->
+  <rect x="10" y="10" width="180" height="180" rx="40" fill="url(#grad)"/>
+  <!-- Brain/circuit icon representing AI -->
+  <!-- Left bracket -->
+  <path d="M60 65 L45 100 L60 135" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Right bracket -->
+  <path d="M140 65 L155 100 L140 135" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Lightning bolt in center (representing automation/power) -->
+  <path d="M108 60 L88 105 L108 105 L92 140" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Dots representing nodes/connections -->
+  <circle cx="72" cy="55" r="5" fill="#fff" opacity="0.6"/>
+  <circle cx="128" cy="55" r="5" fill="#fff" opacity="0.6"/>
+  <circle cx="72" cy="145" r="5" fill="#fff" opacity="0.6"/>
+  <circle cx="128" cy="145" r="5" fill="#fff" opacity="0.6"/>
+</svg>

@@ -62,6 +62,15 @@ img { max-width: 100%; }
 
 .logo span { color: var(--primary); }
 
+.logo-icon {
+  width: 28px;
+  height: 28px;
+  margin-right: 8px;
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+}
+
 .nav-links {
   display: flex;
   align-items: center;
