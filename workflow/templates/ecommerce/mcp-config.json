@@ -1,0 +1,26 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "./knowledge-base"],
+      "description": "Product docs, policies, FAQs"
+    },
+    "shopify": {
+      "command": "npx",
+      "args": ["-y", "mcp-server-shopify"],
+      "env": {
+        "SHOPIFY_STORE_URL": "${SHOPIFY_STORE_URL}",
+        "SHOPIFY_ACCESS_TOKEN": "${SHOPIFY_ACCESS_TOKEN}"
+      },
+      "description": "Orders, products, customers, inventory"
+    },
+    "stripe": {
+      "command": "npx",
+      "args": ["-y", "mcp-server-stripe"],
+      "env": {
+        "STRIPE_SECRET_KEY": "${STRIPE_SECRET_KEY}"
+      },
+      "description": "Payments, refunds, subscriptions"
+    }
+  }
+}

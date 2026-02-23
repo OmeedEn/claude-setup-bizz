@@ -1,0 +1,13 @@
+# Client secrets - never commit
+workflow/clients/*/.env
+workflow/clients/*/knowledge-base/
+
+# Keep the clients directory itself
+!workflow/clients/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
